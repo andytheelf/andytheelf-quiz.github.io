@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Time!</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <a id="highScore" href="./assets/highscore.html">Highscore</a>
+    <button id="start-quiz" style="display: grid">Start Quiz!</button>
+    <span id="countdown">Timer: 75</span>
+    <div class="grid" id="gridStyle" style="display:none">
+        <div id="quiz">
+            <h1 id='quizTitle'>QUIZ TIME!</h1>
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="btn0" onclick="checkAnswer('0')"><span id="choice0"></span></button>
+                <button id="btn1" onclick="checkAnswer('1')"><span id="choice1"></span></button>
+                <button id="btn2" onclick="checkAnswer('2')"><span id="choice2"></span></button>
+                <button id="btn3" onclick="checkAnswer('3')"><span id="choice3"></span></button>
+            </div>
+            <div id="progress"></div>
+            <div id="score-container" style="display:none">Your Score!
+                <label for="initials" id="enter-in">Initials Here!</label><input type="text" id="initials" />
+                <button id="save-score" onclick="addScore()">Save Score!</button>
+                <button id="restartQuiz" onclick="reloadQuiz()">Retake!</button>
+            </div>
+            <div id="correct" style="display: none">Correct!</div>
+            <div id="wrong" style="display: none">Wrong!</div>
+
+            <footer>
+            </footer>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

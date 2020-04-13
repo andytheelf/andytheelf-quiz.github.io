@@ -1,0 +1,168 @@
+body {
+    background-color: slategray;
+}
+
+.grid {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    background-color:teal;
+    padding: 15px 45px 45px 45px;
+    border-radius: 45px;
+    border: 3px dotted rgb(1, 59, 59);
+    box-shadow: 10px 15px 5px rgb(49, 48, 48);
+}
+
+.grid h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid #question {
+    font-size: 30px;
+    color: black;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: slategray;
+    width: 300px;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+       cursor: pointer;
+       background-color: rgb(78, 105, 131);
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+   outline: 0;
+}
+
+#score-container {
+    width: 600px;
+    height: 400px;
+    display: grid;
+    background-color: teal;
+    font-size: 35px;
+    color: black;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+    text-align: center;
+
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top:0;
+
+
+}
+
+#start-quiz {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid teal;
+    background-color: black;
+    color: teal;
+    width: 200px;
+    height: 200px;
+    font-size: 35px;
+}
+
+#enter-in {
+    display:flex;
+    text-align: right;
+    font-size: 20px;
+}
+
+#initials {
+    display:flex;
+    justify-content: left;
+    background-color: slategray;
+    width: 300px;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+
+}
+
+#save-score {
+    display: flex;
+    justify-content: center;
+    background-color: slategray;
+    width: 300px;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+}
+
+#save-score:hover {
+    cursor: pointer;
+    background-color: rgb(78, 105, 131);
+}
+
+.button #start-quiz {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#correct {
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+#wrong {
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+#restartQuiz {
+    display: flex;
+    background-color: slategray;
+    text-align: center;
+    width: 200px;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px 35px 15px 0;
+    padding: 10px 10px;
+}
+
+
+
+
